@@ -7,8 +7,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     environment:
-      VIRTUAL_HOST: yeatwork.ru
-      LETSENCRYPT_HOST: yeatwork.ru
+      VIRTUAL_HOST: yeasoft.ru
+      LETSENCRYPT_HOST: yeasoft.ru
       LETSENCRYPT_EMAIL: ruslan.kuyanets@yandex.ru
     ports:
       - "8081:5173"
@@ -57,8 +57,8 @@ services:
     restart: always
     command: -H unix:///var/run/docker.sock
     environment:
-      - VIRTUAL_HOST=portainer.yeatwork.ru
-      - LETSENCRYPT_HOST=portainer.yeatwork.ru
+      - VIRTUAL_HOST=portainer.yeasoft.ru
+      - LETSENCRYPT_HOST=portainer.yeasoft.ru
       - LETSENCRYPT_EMAIL=ruslan.kuyanets@yandex.ru
       - VIRTUAL_PORT=9000
     volumes:
