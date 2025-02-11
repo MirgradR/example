@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #3498db;
+  --font-family: 'MyFont', sans-serif; /* Переменная для шрифта */
+  --font-weight-normal: normal;
+}
+
+@font-face {
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family); /* Используйте переменную здесь */
+  src: url('./assets/fonts/OpenSans.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  font-family: var(--font-family); /* Используйте переменную здесь */
+}
