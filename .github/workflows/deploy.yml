@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
       - name: Deploy to VPS for test
         if: github.ref == 'refs/heads/develop'
         uses: appleboy/ssh-action@master
