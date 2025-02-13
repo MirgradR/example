@@ -12,6 +12,7 @@ const App = () => {
     >
       <img src={logo} alt="Logo" />
       <h1>Hello, React with Webpack!</h1>
+      <h2>ADD CI/CD</h2>
       <p>RUSLAN HELLO, I AM SUPER MENTOR</p>
       <ApiUrlDisplay />
     </div>
