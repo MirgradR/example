@@ -11,8 +11,8 @@ const App = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <img src={logo} alt="Logo" />
+      <h2>HELLO CI/CD FROM GUIDE</h2>
       <h1>Hello, React with Webpack!</h1>
-      <h2>ADD CI/CD</h2>
       <p>RUSLAN HELLO, I AM SUPER MENTOR</p>
       <ApiUrlDisplay />
     </div>
